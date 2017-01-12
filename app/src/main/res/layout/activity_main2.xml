@@ -11,8 +11,8 @@
     tools:context="com.summer.fsh.wheelapp.Main2Activity">
 
     <RelativeLayout
-        android:layout_width="320dp"
-        android:layout_height="400dp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
         android:layout_centerInParent="true">
 
         <LinearLayout
@@ -23,9 +23,9 @@
 
             <LinearLayout
                 android:id="@+id/ll11"
-                android:layout_width="60dp"
+                android:layout_width="50dp"
                 android:layout_height="80dp"
-                android:layout_margin="10dp"
+                android:layout_margin="5dp"
                 android:background="#996656"
                 android:orientation="horizontal">
 
@@ -37,9 +37,9 @@
 
             <LinearLayout
                 android:id="@+id/ll12"
-                android:layout_width="60dp"
+                android:layout_width="50dp"
                 android:layout_height="80dp"
-                android:layout_margin="10dp"
+                android:layout_margin="5dp"
                 android:layout_toRightOf="@id/ll11"
                 android:background="#996656"
                 android:orientation="horizontal">
@@ -52,9 +52,9 @@
 
             <LinearLayout
                 android:id="@+id/ll13"
-                android:layout_width="60dp"
+                android:layout_width="50dp"
                 android:layout_height="80dp"
-                android:layout_margin="10dp"
+                android:layout_margin="5dp"
                 android:layout_toRightOf="@id/ll12"
                 android:background="#996656"
                 android:orientation="horizontal">
@@ -67,10 +67,25 @@
 
             <LinearLayout
                 android:id="@+id/ll14"
-                android:layout_width="60dp"
+                android:layout_width="50dp"
                 android:layout_height="80dp"
-                android:layout_margin="10dp"
+                android:layout_margin="5dp"
                 android:layout_toRightOf="@id/ll13"
+                android:background="#996656"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/ic_launcher" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll15"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@id/ll14"
                 android:background="#996656"
                 android:orientation="horizontal">
 
@@ -82,8 +97,8 @@
         </LinearLayout>
 
         <RelativeLayout
-            android:id="@+id/line23"
-            android:layout_width="320dp"
+            android:id="@+id/line234"
+            android:layout_width="300dp"
             android:layout_height="wrap_content"
             android:layout_below="@+id/line1"
             android:orientation="horizontal">
@@ -96,9 +111,9 @@
 
             <LinearLayout
                 android:id="@+id/ll21"
-                android:layout_width="60dp"
+                android:layout_width="50dp"
                 android:layout_height="80dp"
-                android:layout_margin="10dp"
+                android:layout_margin="5dp"
                 android:background="#996656"
                 android:orientation="horizontal">
 
@@ -109,12 +124,12 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/ll24"
-                android:layout_width="60dp"
+                android:id="@+id/ll25"
+                android:layout_width="50dp"
                 android:layout_height="80dp"
                 android:layout_alignParentRight="true"
                 android:layout_alignParentTop="true"
-                android:layout_margin="10dp"
+                android:layout_margin="5dp"
                 android:background="#996656"
                 android:orientation="horizontal">
 
@@ -126,10 +141,10 @@
 
             <LinearLayout
                 android:id="@+id/ll31"
-                android:layout_width="60dp"
+                android:layout_width="50dp"
                 android:layout_height="80dp"
                 android:layout_below="@+id/ll21"
-                android:layout_margin="10dp"
+                android:layout_margin="5dp"
                 android:background="#996656"
                 android:orientation="horizontal">
 
@@ -140,12 +155,43 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/ll34"
-                android:layout_width="60dp"
+                android:id="@+id/ll35"
+                android:layout_width="50dp"
                 android:layout_height="80dp"
                 android:layout_alignParentRight="true"
-                android:layout_below="@+id/ll24"
-                android:layout_margin="10dp"
+                android:layout_below="@+id/ll25"
+                android:layout_margin="5dp"
+                android:background="#996656"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/ic_launcher" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll41"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_below="@+id/ll31"
+                android:layout_margin="5dp"
+                android:background="#996656"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/ic_launcher" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll45"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/ll35"
+                android:layout_margin="5dp"
                 android:background="#996656"
                 android:orientation="horizontal">
 
@@ -157,17 +203,17 @@
         </RelativeLayout>
 
         <LinearLayout
-            android:id="@+id/line4"
+            android:id="@+id/line5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/line23"
+            android:layout_below="@+id/line234"
             android:orientation="horizontal">
 
             <LinearLayout
-                android:id="@+id/ll41"
-                android:layout_width="60dp"
+                android:id="@+id/ll51"
+                android:layout_width="50dp"
                 android:layout_height="80dp"
-                android:layout_margin="10dp"
+                android:layout_margin="5dp"
                 android:background="#996656"
                 android:orientation="horizontal">
 
@@ -178,11 +224,11 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/ll42"
-                android:layout_width="60dp"
+                android:id="@+id/ll52"
+                android:layout_width="50dp"
                 android:layout_height="80dp"
-                android:layout_margin="10dp"
-                android:layout_toRightOf="@id/ll41"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@id/ll51"
                 android:background="#996656"
                 android:orientation="horizontal">
 
@@ -193,11 +239,11 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/ll43"
-                android:layout_width="60dp"
+                android:id="@+id/ll53"
+                android:layout_width="50dp"
                 android:layout_height="80dp"
-                android:layout_margin="10dp"
-                android:layout_toRightOf="@id/ll42"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@id/ll52"
                 android:background="#996656"
                 android:orientation="horizontal">
 
@@ -208,11 +254,26 @@
             </LinearLayout>
 
             <LinearLayout
-                android:id="@+id/ll44"
-                android:layout_width="60dp"
+                android:id="@+id/ll54"
+                android:layout_width="50dp"
                 android:layout_height="80dp"
-                android:layout_margin="10dp"
-                android:layout_toRightOf="@id/ll43"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@id/ll53"
+                android:background="#996656"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/ic_launcher" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll55"
+                android:layout_width="50dp"
+                android:layout_height="80dp"
+                android:layout_margin="5dp"
+                android:layout_toRightOf="@id/ll54"
                 android:background="#996656"
                 android:orientation="horizontal">
 
